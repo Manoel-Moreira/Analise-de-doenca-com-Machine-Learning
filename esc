@@ -1,0 +1,13 @@
+[1mdiff --git a/HEALTHIA/services/treinamentoService.py b/HEALTHIA/services/treinamentoService.py[m
+[1mindex f100415..246a6c0 100644[m
+[1m--- a/HEALTHIA/services/treinamentoService.py[m
+[1m+++ b/HEALTHIA/services/treinamentoService.py[m
+[36m@@ -47,7 +47,7 @@[m [mdef treinar_modelo():[m
+ [m
+     X_treino = separar_dados()[0][m
+     Y_treino = separar_dados()[2][m
+[31m-    [m
+[32m+[m[32m    print('teste')[m
+     #deixando o modelo mais ponte, com bons hiperparametros[m
+     HealthIA = XGBoost(n_estimators=150, learning_rate=0.03, max_depth=3, min_child_weight=1, random_state=42)[m
+     HealthIA.fit(X_treino, Y_treino)[m

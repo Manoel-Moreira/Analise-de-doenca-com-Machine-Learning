@@ -47,7 +47,7 @@ def treinar_modelo():
 
     X_treino = separar_dados()[0]
     Y_treino = separar_dados()[2]
-    
+
     #deixando o modelo mais ponte, com bons hiperparametros
     HealthIA = XGBoost(n_estimators=150, learning_rate=0.03, max_depth=3, min_child_weight=1, random_state=42)
     HealthIA.fit(X_treino, Y_treino)
