@@ -52,11 +52,11 @@ def encode_Y():
     label_encoder = LabelEncoder()
     df = dataset_completo()
 
-    Y = df["diagnostico"].astype(str)
+    y = df["diagnostico"].astype(str)
 
-    Y_encoded = label_encoder.fit_transform(Y)
+    y_encoded = label_encoder.fit_transform(y)
 
-    return Y_encoded
+    return y_encoded
 
 
 
