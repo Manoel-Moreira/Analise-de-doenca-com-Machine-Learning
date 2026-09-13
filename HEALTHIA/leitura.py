@@ -1,5 +1,3 @@
-
-
 from services.datasetService import dataset_completo
 from services.vetorizacaoService import vetorizacao, encode_Y
 from services.treinamentoService import acuracia_modelo
@@ -44,8 +42,8 @@ def acuracia_modelo_commsg_print():
 if __name__ == "__main__":
     #prints_vetorizacao()
     #print_encodeY()
-    #acuracia_modelo_print()
-    #acuracia_modelo_commsg_print()
-    #salvar_vetorizador_healthIA()
-    #salvar_encoderY_healthIA()
-    salvar_modelo_healthIA()
+    # acuracia_modelo_print()
+    acuracia_modelo_commsg_print()
+    # #salvar_vetorizador_healthIA()
+    # #salvar_encoderY_healthIA()
+    # salvar_modelo_healthIA()
