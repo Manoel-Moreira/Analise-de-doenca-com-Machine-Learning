@@ -22,7 +22,7 @@ Projeto desenvolvido através da Mastertech do professor Carlos Viana para coloc
 - **scikit-learn** (Para vetorização de texto com `TfidfVectorizer`)
 - **XGBoost** (Para criação e treinamento do modelo com `XGBClassifier`
 - **FastApi** (Para a interface)
-- 
+  
 
 ---
 
