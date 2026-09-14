@@ -1,12 +1,10 @@
+# 1 - chamar o framework que tem o TF-IDF
+# 2 - instanciar o modelo de vetorização
+# 3 - Pegar os dados e vetorizar
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from services.datasetService import dataset_completo
 from sklearn.preprocessing import LabelEncoder
-
-
-
-# 1 - chamar o framework que tem o TF-IDF - ok
-# 2 - instanciar o modelo de vetorização - ok
-# 3 - Pegar os dados e vetorizar
 
 
 # Vetorizador
@@ -27,8 +25,8 @@ def vetorizador():
     
     return tfidf
 
-#Vetorizador vetorizando os Dados
-# retorno Dados Vetorizados
+# Vetorizador vetorizando os Dados
+# Retona os Dados Vetorizados
 def vetorizacao():
     tfidf = TfidfVectorizer()
 
@@ -43,7 +41,7 @@ def vetorizacao():
 
 def encode_Y():
     """
-    Função para codificar a variável alvo (Y) usando Label Encoding.
+    Função para codificar a variável alvo (y) usando Label Encoding.
 
     Return:
     Y_encoded: array

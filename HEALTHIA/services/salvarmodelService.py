@@ -1,13 +1,11 @@
+# Salvar o vetorizador
+# Salvar o Encoder (Label y)
+# Salvar o modelo treinado
+
 from services.vetorizacaoService import vetorizador, encode_Y
 from services.treinamentoService import treinar_modelo
 import pickle
 import os
-
-
-# Salvar o vetorizador
-# Salvar o Encoder (Label Y)
-# Salvar o modelo treinado
-
 
 
 def salvar_vetorizador():

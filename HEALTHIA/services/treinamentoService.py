@@ -40,7 +40,7 @@ def separar_dados():
 
 def treinar_modelo():
     """
-    Função para treinar o modelo de Machine Learning, com o algoritmo XGBoost.
+    Função para treinar o modelo de Machine Learning, com o algoritimo XGBoost.
 
     Return:
     model: XGBClassifier

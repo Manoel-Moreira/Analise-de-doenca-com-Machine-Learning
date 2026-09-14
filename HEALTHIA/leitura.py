@@ -43,7 +43,8 @@ if __name__ == "__main__":
     #prints_vetorizacao()
     #print_encodeY()
     # acuracia_modelo_print()
-    acuracia_modelo_commsg_print()
+    # acuracia_modelo_commsg_print()
     # #salvar_vetorizador_healthIA()
     # #salvar_encoderY_healthIA()
-    # salvar_modelo_healthIA()
+    salvar_modelo_healthIA()
+
